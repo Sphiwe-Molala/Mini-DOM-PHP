@@ -27,7 +27,7 @@
   
   $div2 -> __setText( "<div>Awesome Text 3</div>" );
   
-  $div3 = HTMLDocument::createElement( "div","id" );
+  $div3 = HTMLDocument::createElement( "div","last-div" );
   $div3 -> copyStyle( $div );// or $div3 -> copyStyle( $div -> style );
   $div3 -> style -> borderRadius = "5px";
   //lets echo our div
@@ -43,6 +43,6 @@
     <div>Awesome Text 2</div>
     "<div>Awesome Text 3</div>"
   </div>
-  <div id = "id" style = "font-size:20px;padding:4px;margin-bottom:10em;border-radius:5px;">
+  <div id = "last-div" style = "font-size:20px;padding:4px;margin-bottom:10em;border-radius:5px;">
   </div>
 ```
