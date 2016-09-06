@@ -1,0 +1,16 @@
+{
+    "name": "sphiwe/mini_dom_php",
+    "description": "A small mimic of the Document Object Model",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sphiwe Molala",
+            "email": "molalasphiwe@gmail.com"
+        }
+    ],
+    "autoload":{
+        "classmap":[ "classes" ]
+    },
+    "require": {}
+}
