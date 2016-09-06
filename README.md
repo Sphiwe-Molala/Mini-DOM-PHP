@@ -2,6 +2,9 @@
 
 #Usage
 ```php
+  
+  require_once 'dom-load.php';
+
   $div = new HTMLDivElement();//Creates a div element
   $div -> setId( "the-almighty-div" );//set an id (html attribute) for this div
   $div -> setClassName( "col-sm-6" );//set a class (html attribute) for this div
